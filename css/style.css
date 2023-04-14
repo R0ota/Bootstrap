@@ -7,7 +7,10 @@
 }
 
 Body {
-  font-family: "Roboto", sans-serif;
+
+  font-family: 'Roboto', sans-serif;
+
+
 }
 
 .main-btn {
@@ -21,7 +24,7 @@ Body {
 }
 
 .main-content {
-  margin-bottom: 200px;
+  margin-bottom: 120px;
 }
 
 .main-title:after {
@@ -33,7 +36,10 @@ Body {
   bottom: -20px;
   left: 50%;
   transform: translate(-50%);
+
+
 }
+
 
 .navbar {
   background-color: var(--dark-color);
@@ -46,7 +52,7 @@ Body {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link:focus,
 .navbar .navbar-nav .nav-link:hover {
-  color: var(--green-color);
+  color: var(--green-color)
 }
 
 .navbar .search {
@@ -54,7 +60,7 @@ Body {
 }
 
 .navbar .search svg {
-  color: var(--green-color);
+  color: var(--green-color)
 }
 
 .navbar .navbar-toggler {
@@ -68,26 +74,33 @@ Body {
 }
 
 .navbar .navbar-toggler[aria-expanded="true"] {
-  border-color: var(--green-color);
+  border-color: var(--green-color)
 }
+
 
 .landing {
   background-color: var(--dark-color);
   min-height: calc(100vh - 72px);
+
 }
+
+
+
 
 .features.icon-holder {
   height: 200px;
+
 }
 
 .features.icon-holder svg {
   left: 50%;
   transform: translateX(-50%);
+
 }
 
 .number {
   font-size: 12rem;
-  color: var(--section-color);
+  color: var(--section-color)
 }
 
 .icon {
@@ -98,11 +111,18 @@ Body {
   color: var(--yellow-color);
 }
 
+
+
+
+
+
+
 .ourwork {
   background-color: var(--section-color);
 }
 
 .active {
+
   background-color: var(--red-color);
   color: var(--yellow-color);
 }
@@ -122,6 +142,7 @@ Body {
   position: relative;
 }
 
+
 .ourwork .box::before {
   content: attr(data-works);
   position: absolute;
@@ -136,7 +157,9 @@ Body {
   transition: 0.3s;
   font-size: 1.5rem;
   transform: translateX(calc(-100% - 5px));
+
 }
+
 
 .ourwork .box:hover::before {
   transform: translateX(0);
@@ -147,7 +170,7 @@ Body {
 }
 
 .team {
-  background-color: var(--section-color);
+  background-color: var(--section-color)
 }
 
 .team h2 {
@@ -173,6 +196,8 @@ Body {
 
 .subscribe input[type="text"]:focus {
   outline: none;
+
+
 }
 
 .subscribe ::placeholder {
@@ -188,7 +213,8 @@ Body {
   background-color: var(--dark-color);
 }
 
-.footer .copyright > span {
+.footer .copyright>span {
+
   color: var(--green-color);
 }
 
